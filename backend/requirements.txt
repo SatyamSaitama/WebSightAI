@@ -5,3 +5,4 @@ pandas
 chromadb==0.5.3
 gunicorn==21.2.0
 flask_cors
+pysqlite3-binary
