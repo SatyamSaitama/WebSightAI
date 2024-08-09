@@ -268,9 +268,5 @@ python-dotenv==1.0.1
 python-json-logger==2.0.7
 regex
 requests
-requests-file
-requests-oauthlib
 scikit-learn
-uvicorn
-websocket-client
-websockets
+
