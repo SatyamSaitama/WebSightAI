@@ -3,7 +3,7 @@ node_modules/
 dist/
 *.log
 .env
-
+env/
 # Vue.js
 public/
 *.env.local
@@ -25,3 +25,4 @@ instance/
 # Flask
 *.sqlite3
 instance/
+.vscode/
