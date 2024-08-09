@@ -269,7 +269,6 @@ python-json-logger==2.0.7
 python-multipart==0.0.6
 pyttsx3==2.90
 pytz
-pytz-deprecation-shim
 pywin32==305
 pywinpty==2.0.13
 PyYAML==6.0.1
@@ -312,7 +311,6 @@ sqlparse==0.4.4
 stack-data==0.6.2
 starlette==0.37.2
 statsmodels==0.14.0
-streamlit==1.22.0
 sympy==1.12
 tangled-up-in-unicode==0.2.0
 tenacity==9.0.0
