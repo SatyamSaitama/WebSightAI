@@ -37,7 +37,7 @@ def generate():
     rag = search(prompt)
     chat = model.start_chat(history=history)
     
-    response = chat.send_message(f"""if this prompt #{prompt}# by the user is requesting for a website Return this *exact* code  #{rag}#  as your response.  Else if the prompt  requesting for the  changing the component of the  website (that you provided in previous response)then only modify the code and return the modified code.Else converse with the user and tell them that you are a website builder and you return html,css,js code for a website prompt.
+    response = chat.send_message(f"""if this prompt #{prompt}# by the user is requesting for a website Return this  code  #{rag}#  as your response.  Else if the prompt  requesting for the  changing the component of the  website (that you provided in previous response)then only modify the code and return the modified code.Else converse with the user and tell them that you are a website builder and you return html,css,js code for a website prompt.
     Note***                             
     Don't give any explanation of the code.Return code as the response for user to copy easily .***""")
     
