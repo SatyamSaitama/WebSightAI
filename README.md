@@ -11,7 +11,7 @@ import requests
 import pandas as pd
 
 # Fetch the data from the URL with length set to 100
-url = "https://datasets-server.huggingface.co/rows?dataset=HuggingFaceM4%2FWebSight&config=v0.2&split=train&offset=0&length=100"
+url = "https://datasets-server.huggingface.co/rows?dataset=HuggingFaceM4%2FWebSight&config=v0.2&split=train&offset=0&length=10000"
 
 response = requests.get(url)
 
