@@ -4,7 +4,7 @@
 
 ### 1.1 Data Collection
 
-Data was collected from the HuggingFace WebSight dataset, consisting of approximately 100 rows. This data was then processed, cleaned, and saved as a CSV file for further use.
+Data was collected from the HuggingFace WebSight dataset, consisting of approximately 10000 rows. This data was then processed, cleaned, and saved as a CSV file for further use.
 
 ```python
 import requests
