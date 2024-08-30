@@ -147,6 +147,10 @@ def generate():
     return jsonify({"response": code})
 ```
 
+![WebSightAI Sample Image](https://github.com/SatyamSaitama/WebSightAI/blob/main/Sample3.jpeg)
+
+*Sample image from the WebSightAI project demonstrating the visual output of the AI model.*
+
 ### 1.5 Steps for Fine-Tuning
 
 Fine-tuning was performed using Keras and KerasNLP. KerasNLP provides implementations of many popular model architectures.
@@ -178,6 +182,9 @@ LoRA (Low-Rank Adaptation) was used to fine-tune the model. The rank was set to 
 - Metric: Sparse Categorical Accuracy
 - Epochs: 1
 - Batch size: 1
+
+![Output after finetuning with gemma](https://github.com/SatyamSaitama/WebSightAI/blob/main/fine-tuned-gemma.jpeg)
+*Output after finetuning with gemma*
 
 ### 1.6 Choosing RAG Over Fine-Tuning
 
