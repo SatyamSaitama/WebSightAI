@@ -1,4 +1,4 @@
-# Project README
+# WebSightAI
 
 ## 1. Data Collection and Processing
 
